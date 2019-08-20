@@ -2137,7 +2137,7 @@ h6 {
 }
 
 .primary-checkbox input:checked+label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  /* background: url('../images/elements/primary-check.png') no-repeat center center/cover; */
   border: none;
 }
 
@@ -2175,7 +2175,7 @@ h6 {
 }
 
 .confirm-checkbox input:checked+label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  /* background: url('../images/elements/success-check.png') no-repeat center center/cover; */
   border: none;
 }
 
@@ -2218,7 +2218,7 @@ h6 {
 }
 
 .disabled-checkbox input:checked+label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  /* background: url('../images/elements/disabled-check.png') no-repeat center center/cover; */
   border: none;
 }
 
@@ -2256,7 +2256,7 @@ h6 {
 }
 
 .primary-radio input:checked+label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  /* background: url('../images/elements/primary-radio.png') no-repeat center center/cover; */
   border: none;
 }
 
@@ -2294,7 +2294,7 @@ h6 {
 }
 
 .confirm-radio input:checked+label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  /* background: url('../images/elements/success-radio.png') no-repeat center center/cover; */
   border: none;
 }
 
@@ -2337,7 +2337,7 @@ h6 {
 }
 
 .disabled-radio input:checked+label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  /* background: url('../images/elements/disabled-radio.png') no-repeat center center/cover; */
   border: none;
 }
 
@@ -2773,8 +2773,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-.home-banner-area {
-  background: url(../img/banner-bg.jpg) center;
+.home+-banner-area {
+  /* background: url('../images/banner-bg.jpg') center; */
+  /* background: url('../images/banner-img.png') center; */
   background-size: cover;
 }
 
@@ -3826,7 +3827,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .blog-home-banner {
-  background: url(../img/blog/blog-home-banner.jpg) bottom;
+  /* background: url('../images/blog/blog-home-banner.jpg') bottom; */
+  background: url('../images/banner-img.png') bottom;
   background-size: cover;
   padding: 130px 0;
 }
