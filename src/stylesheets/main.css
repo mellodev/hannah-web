@@ -923,7 +923,7 @@ th {
 }
 
 .section-gap {
-  padding: 150px 0;
+  padding: 90px 0;
 }
 
 @media (max-width:1024px) {
@@ -991,7 +991,7 @@ th {
   bottom: -35px;
   width: 10px;
   height: 10px;
-  background: #e45447;
+  /* background: #e45447; */
   border-radius: 7px;
 }
 
@@ -1008,13 +1008,20 @@ th {
   bottom: -31px;
   width: 100px;
   height: 2px;
-  background: #e45447;
+  /* background: #e45447; */
 }
 
 @media (max-width:1024px) {
   .section-title h2:after {
     bottom: -11px;
   }
+}
+
+.section-title-header {
+  padding: 25px 0;
+  border-bottom: 2px solid #ccc;
+  border-radius: 2px;
+  text-shadow: 2px 4px 8px #ccc;
 }
 
 .section-title p {
@@ -2779,8 +2786,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
 }
 
+.home-banner-area .banner-area-container {
+  height: auto;
+  padding-top: 80px;
+}
+
 @media (max-width:769px) {
   .home-banner-area .fullscreen {
+    height: 600px!important;
+  }
+
+  .home-banner-area .banner-area-container {
     height: 600px!important;
   }
 }
@@ -2794,11 +2810,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content h1 {
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: 55px;
   font-weight: 700;
+  text-shadow: 2px 4px 8px #aaa;
   line-height: 66px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 @media (max-width:1024px) {
@@ -2841,11 +2859,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-top: 24px solid #90acd1;
 }
 
+
 .banner-content .designation {
-  max-width: 900px;
   font-size: 30px;
   font-weight: 400;
-  line-height: 42px;
+  /* line-height: 42px; */
+  text-shadow: 2px 4px 8px #ddd;
+  letter-spacing: 2px;
+  color: #2e282a;
 }
 
 @media (max-width:576px) {
@@ -2973,7 +2994,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .work-area {
-  background: #f9f9ff;
+  /* background: #f9f9ff; */
+  background: #fff;
 }
 
 @media (max-width:1024px) {
@@ -3109,6 +3131,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 1;
 }
 
+
 .job-area.offwhite {
   background: #f9f9ff;
 }
@@ -3189,7 +3212,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .service-area {
-  background: #f9f9ff;
+  background: #fff;
+  /* background: #f9f9ff; */
 }
 
 .service-area.white {
